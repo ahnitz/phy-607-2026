@@ -1,0 +1,251 @@
+%% Welcome to the syllabus! This file isn't really created as an example, but I thought it might be interesting for you to see how I wrote it
+
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{mathptmx}
+\usepackage{helvet}
+\usepackage{array}
+\renewcommand\familydefault{\sfdefault}
+
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+\usepackage[colorlinks,urlcolor=red]{hyperref}
+\usepackage{cleveref}
+\usepackage{subcaption}
+\usepackage{booktabs}
+
+\makeatletter
+\@beginparpenalty=10000
+\makeatother
+
+\title{PHY 607 - Computational physics \\ Fall 2026 syllabus}
+\author{Prof. Alexander Nitz -- \href{mailto:ahnitz@syr.edu}{ahnitz@syr.edu}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Class information}
+
+Welcome to PHY 607! This three credit course is an introduction to using computers to solve problems relevant for physics research. The goal is to provide a foundation in programming, best practices, algorithms, and collaboration upon which one can build to employ more sophisticated techniques. The audience includes both students new to programming as well as those with some previous experience. The course is composed of
+lectures and tutorials on best practices and projects to build experience.
+
+\subsection*{Instructor}
+
+\noindent
+\begin{minipage}[t]{0.52\textwidth}
+  \raggedright
+  Prof. Alexander Nitz \\
+  Office hours: Monday 3--5 pm \\
+  (or by appointment)
+\end{minipage}%
+\begin{minipage}[t]{0.46\textwidth}
+  \raggedleft
+  email: \href{mailto:ahnitz@syr.edu}{ahnitz@syr.edu} \\
+  office: Physics 263-I
+\end{minipage}
+
+\subsection*{Learning Objectives}
+Students will be able to
+\begin{itemize}
+\item create basic programs implementing numerical algorithms in python,
+\item learn best practices for validating and testing their programs,
+\item compare their results with more sophisticated techniques available in external packages,
+\item work collaboratively using version control,
+\item document results.
+\end{itemize}
+
+\subsection*{Meeting times}
+
+The scheduled class times are Tuesday and Thursday, 12:30--1:50 pm, in room 208. These times will be used as default times to schedule a number of different class types:
+\begin{description}
+\item[Lectures and Discussions] When introducing the course, lectures on practices and concepts, and new projects.
+\item[Small group sessions] When collaborating on a project, I will schedule discussion sessions with individual groups to review progress and issues.
+\item[Open lab sessions] For all other class times, plan to be present, working on projects. This gives you quick access to the professor and other students to answer questions.
+
+\end{description}
+The schedule details for individual days will be determined on an as-needed basis.
+
+\subsection*{Books and materials}
+
+\begin{itemize}
+\item A MacOS or Linux computer capable of running python and the SciPy programming stack is required for this course. If you currently run Windows, the recommended path is to install Linux, either as your main system or as a dual boot. The Windows Subsystem for Linux (WSL) will also work for most of the course, but it introduces occasional tooling differences that you will have to debug yourself, so support for it is best-effort.
+\item No textbook is required for this course. Suggested online resources will be supplied as needed.
+\end{itemize}
+
+\section*{Grading}
+
+Throughout the term, assignments will be used for class and project organization. The first major project will be completed individually, but for the rest you will work in assigned groups.
+
+\begin{table}[htbp]
+  \caption{Grade breakdown}
+\begin{center}
+  \begin{tabular}{lr}
+    \toprule
+    Component & Weight \\
+    \midrule
+    Project 1 & 10\% \\
+    Project 2 & 20\% \\
+    Project 3 & 20\% \\
+    Project 4 & 20\% \\
+    Assignments & 20\% \\
+    Collaboration & 10\% \\
+    \midrule
+    Total & 100\% \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[htbp]
+  \caption{Letter grades}
+\begin{center}
+  \begin{tabular}{cl}
+	\toprule
+	Score & Grade \\
+	\midrule
+	90+     &         A \\
+   85-89    &         A-\\
+   80-84    &         B+\\
+   75-79    &         B	\\
+   70-74    &         B-\\
+   65-69    &         C+\\
+   60-64    &         C	\\
+   55-59    &         C-\\
+   0-54    &         F \\
+   \bottomrule
+  \end{tabular}
+\end{center}
+\end{table}
+
+\section*{Course calendar}
+The following key dates are tentatively set for the semester, and may be adjusted based on progress in the course. Unlisted class dates will be scheduled as described in the section on meeting times, above. Timelines and topics are subject to adjustment, but may include topics related to optimization, ODEs, PDEs, monte-carlo methods, and markov chains.
+
+Note that there is no class on Tuesday, October 13 (Fall Break) or on Tuesday, November 24 and Thursday, November 26 (Thanksgiving Break). The last class meeting is Tuesday, December 8.
+
+\begin{table}[htbp]
+  \caption{Course Schedule}
+\begin{center}
+  \newcommand{\cw}[1]{\raggedright #1\par}
+  \newcommand{\tp}[2]{\textbf{code practices}: #1 \newline \textbf{physics}: #2}
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{3.4cm}|p{9.0cm}|}
+    \hline
+    \textbf{Week} & \textbf{Topic} \\\hline
+    Week 1 \newline (Aug 25, 27) & Introduction, class requirements, pseudocode, bash/terminal \\\hline
+    Week 2 \newline (Sep 1, 3) & Introduction to python programming, version control \\\hline
+    Week 3 \newline (Sep 8, 10) & \tp{plotting / io, validation, numerical error}{integration / odes} \\\hline
+    Week 4 \newline (Sep 15, 17) & \tp{classes, style, sandboxes}{integration / runge kutta} \\\hline
+    Week 5 \newline (Sep 22, 24) & \tp{profiling, computational complexity}{random numbers} \\\hline
+    Weeks 6--7 \newline (Sep 29 -- Oct 8) & \tp{programs, numpy}{monte-carlo methods, rejection sampling, monte-carlo integration} \\\hline
+    Weeks 8--9 \newline (Oct 15, 20, 22) & \tp{packages}{optimization methods, fitting} \\\hline
+    Weeks 10--11 \newline (Oct 27 -- Nov 5) & \tp{identifying errors / debugging}{likelihoods, bayes theorem, markov chains} \\\hline
+    Weeks 12--13 \newline (Nov 10 -- 19) & \textbf{physics}: nbody / finite element \\\hline
+    Weeks 15--16 \newline (Dec 1 -- 8) & Special topics and Project 4 tutorials \\\hline
+  \end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[htbp]
+  \caption{Key Dates}
+\begin{center}
+  \begin{tabular}{ll}
+    \toprule
+    Date & Milestone \\
+    \midrule
+    Tue, Aug 25 & First class \\
+    Thu, Sep 10 & Project 1 introduced (individual) \\
+    Tue, Sep 15 & Project 1 plan due \\
+    Thu, Sep 24 & Project 1 due \\
+    Thu, Oct 1  & Project 2 introduced \\
+    Tue, Oct 6  & Project 2 partner and plan due \\
+    Thu, Oct 22 & Project 2 due; Project 3 introduced \\
+    Thu, Nov 5  & Project 3 topic due \\
+    Tue, Nov 17 & Project 3 due; Project 4 introduced \\
+    Tue, Dec 8  & Last day of class; Project 4 due \\
+    \bottomrule
+  \end{tabular}
+\end{center}
+\end{table}
+
+\section*{Course policy on attendance}
+
+Attendance is expected at all class meetings. This matters more in this course than in a lecture course: much of the class time is open lab and small group work, which is where you get direct access to me and to your classmates while you are actually stuck on something. Attendance itself is not scored, but the collaboration component of your grade reflects your engagement with the course, and that is difficult to demonstrate if you are not present.
+
+If you need to miss a class, let me know in advance by email. If you must miss an extended period, contact me as early as you can so we can work out a plan.
+
+\section*{Course policy on missed work}
+
+All course projects are required. In the event of unforeseen circumstances causing difficulty completing work on-time, you must communicate in advance. Accommodations will be made on a case-by-case basis.
+
+\section*{Course policy on academic integrity}
+
+You are encouraged to discuss everything in the course with your peers and to search online for example solutions to programming questions. But all code and documentation you submit must be your own work, except as permitted in the section on artificial intelligence below.
+
+\section*{Artificial Intelligence Policy}
+
+Based on the specific learning outcomes and assignments in this course, artificial intelligence is permitted on the following: Project 3 and Project 4. See each assignment, quiz or exam instructions for more information about which artificial intelligence tools are permitted and to what extent, as well as citation requirements. If no instructions are provided for a specific assignment, then no use of any artificial intelligence tool is permitted. Any AI use beyond what is detailed in course assignments is explicitly prohibited except when documented permission is granted.
+
+\subsection*{What this means in this course}
+
+The distinction is deliberate. Projects 1 and 2 exist to build fundamental skills, and those skills are only built by doing the work yourself; no AI use is permitted on them, including code completion and code generation features in editors and IDEs, which you should disable for that work. On Projects 3 and 4 you may use these tools, but you must disclose the exact manner of use --- which tools, on which parts of the work, and for what purpose --- and you must vet every step yourself. A vague acknowledgement is not sufficient disclosure. You are responsible for the correctness of everything you submit and must be able to explain and defend any part of it, whether or not a tool produced it. Project 3 additionally requires that all changes be reviewed by your partner before they are merged. Full requirements are given in each project description.
+
+If you are unsure whether a particular use is permitted, ask before you use it.
+
+\section*{Educational use of student work}
+
+I intend to use academic work that you complete this semester in subsequent semesters for educational purposes. Before using your work for that purpose, I will either get your written permission or render the work anonymous by removing identifying material.
+
+\section*{Online etiquette}
+
+Classes are intended to be in person and a hybrid experience will not be offered. In the event that it is necessary
+to hold a class meeting or discussion online, there are a few simple things you can do that will make life easier for everyone and keep the environment friendly:
+\begin{itemize}
+\item First, make sure you are aware of what you are transmitting. (If you’re sending video over the internet, for instance, make sure you’re wearing appropriate clothing!) Treat online class meetings as you would treat classes in person.
+\item If you are in a larger group, keep your microphone muted unless you are actively talking; this is especially important if you are in a noisy place or if you are using a built-in microphone on a laptop or cellphone.
+\end{itemize}
+
+\section*{Inclusion}
+
+Everyone in this class is an equally-valued member of this university and our community. We expect you to treat your classmates as honored colleagues in the collective endeavor we are all involved in: to understand the natural world and use that understanding to improve our society.
+
+In particular, bias against or denigration of anyone in our class because of their gender or how they express it, their sexual orientation, their religion, their national origin, their race or ethnicity, or a disability they may have will not be tolerated. If you are the target of this sort of bias or if you witness it, please report it directly to me and I will take swift action. If you don’t feel comfortable talking to me, you may report it anonymously to the Physics Department at
+\href{https://syracuseuniversity.qualtrics.com/jfe/form/SV_9pORpTKnq6pLeyF}{the department confidential complaint form}.
+
+\newpage
+
+\section*{Syracuse University Policies}
+
+The following statements are required in all Syracuse University syllabi and are
+reproduced here as written by the University.
+
+\subsection*{Academic Integrity Policy}
+
+As a preeminent and inclusive student-focused research institution, Syracuse University places academic integrity at the forefront of learning and considers it a core value and guiding pillar of education. The University's \href{https://policies.syr.edu/policies/academic-rules-student-responsibilities-and-services/academic-integrity-policy/}{Academic Integrity Policy} provides guidelines for completing academic work with integrity. Students are required to meet both course-specific and Universitywide academic integrity expectations, such as crediting your sources, doing your own work, communicating honestly and supporting academic integrity.
+
+Upholding academic integrity includes the protection of faculty intellectual property. Students should not upload, distribute or share an instructor's course materials, including presentations, assignments, exams or other evaluative materials, without permission. Using websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to obtain exam solutions or assignments completed by others and presenting them as your own violates academic integrity expectations in this course and may be classified as a Level 3 violation.
+
+All academic integrity expectations that apply to in-person assignments, quizzes and exams also apply online. Students found in violation of the policy are subject to grade sanctions determined by the course instructor and non-grade sanctions determined by the school or college offering the course. Students may not drop or withdraw from courses in which they face a suspected violation. Any established violation in this course may result in course failure regardless of violation level.
+
+\subsection*{Disability Statement}
+
+Syracuse University values diversity and inclusion and is committed to a climate of mutual respect and full participation. There may be aspects of the instruction or design of this course that result in barriers to your inclusion and full participation. I invite students to meet with me to discuss strategies and/or accommodations (academic adjustments) that may be essential to your success in collaboration with the \href{https://disabilityresources.syr.edu}{Center for Disability Resources} (CDR).
+
+To discuss disability-accommodations or register with CDR, visit \url{https://disabilityresources.syr.edu}, or contact the center at 315.443.4498 or \href{mailto:disabilityresources@syr.edu}{disabilityresources@syr.edu} for more detailed information. CDR is responsible for coordinating disability-related academic accommodations and will work with you to develop an access plan. Since accommodations may require early planning and generally are not provided retroactively, please contact CDR as soon as possible.
+
+\subsection*{Discrimination or Harassment}
+
+Syracuse University does not discriminate and prohibits harassment or discrimination related to any protected category including creed, ethnicity, citizenship status, reproductive health decisions, national origin, sex, gender, pregnancy, disability, marital status, age, race, color, veteran status, military status, religion, sexual orientation, domestic violence status, genetic information, gender identity and/or gender expression, shared common ancestry or any other status protected by applicable law.
+
+Any complaint of discrimination or harassment related to any of these protected bases should be reported to Sheila Johnson-Willis, associate vice president and chief equal opportunity and Title IX officer in the Office of Equal Opportunity, Inclusion and Resolution Services (621 Skytop Road, Suite 1001, Syracuse, NY 13244; \href{mailto:equalopp@syr.edu}{equalopp@syr.edu}; 315.443.4018). She is responsible for coordinating compliance efforts under various laws including Titles VI, VII, IX and Section 504 of the Rehabilitation Act.
+
+\subsection*{Faith Tradition Observances}
+
+Syracuse University's Religious Observances Policy recognizes the diversity of faiths represented in the campus community and protects the rights of students, faculty and staff to observe religious holy days according to their traditions. Under the policy, students are given an opportunity to make up any examination, study or work requirements that may be missed due to a religious observance, provided they notify their instructors no later than the academic drop deadline. For any observances occurring before the academic drop deadline, students must notify faculty at least two academic days in advance. Students register their observances using MySlice.
+
+\end{document}
