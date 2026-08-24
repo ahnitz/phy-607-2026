@@ -20,6 +20,11 @@
    * conditionals and loops in bash
    * exit statuses
 
+## Slides
+
+[linux_commands.pdf](https://github.com/ahnitz/phy-607-2026/blob/main/class_notes/8-27/linux_commands.pdf)
+(LyX source: [linux_commands.lyx](https://github.com/ahnitz/phy-607-2026/blob/main/class_notes/8-27/linux_commands.lyx))
+
 ## Resources for understanding bash
 
 * https://www.w3schools.com/bash/
