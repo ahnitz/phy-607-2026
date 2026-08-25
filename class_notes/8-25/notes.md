@@ -9,9 +9,8 @@
 * Instructions for the next class
   * Bring laptop with either MacOSX or linux
   * if running windows, either install linux or dual boot
-    * https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview
-* pseudocode introduction
-* class activity with pseudo code [each person writes their instructions]
+    * https://ubuntu.com/desktop/docs/en/latest/tutorial/install-ubuntu-desktop/
+* class activity [each person writes their instructions]
   * fixed starting point within box [think etchasketch]
   * start with chalk off the board and above the center of the box
   * commands are limited
@@ -22,6 +21,7 @@
     * dog
   * (1) everyone create instructions for their own plot, exchange and try to reproduce image from instructions
   * (2) add in two instructions and repeat
+* pseudocode introduction
 * procedural programming
   * conditionals
   * loops
