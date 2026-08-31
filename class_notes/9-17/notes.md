@@ -9,10 +9,9 @@ This is the last remote class — I am back in person Tuesday, September 22.
     * error example 1
     * error analysis with numerical error (standard error propagation!)
     * error example 2
-* python types
+* python types, continued from Sept 1
+    * `numpy` arrays alongside the built-in types
 * classes
-* packages
-    * `matplotlib` / `numpy` / `scipy`
 
 ## In-class Exercise
 

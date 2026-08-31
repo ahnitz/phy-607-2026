@@ -13,10 +13,7 @@
     * modules
     * file i/o
     * plotting
-
-* Python Style guide
-    * [Python PEP8 Guide](https://realpython.com/python-pep8/)
-    * [automatic code formatting (black)](https://black.readthedocs.io/en/stable/)
+    * (you need all three for the Falling Cow output file and plots)
 
 ## Introduction of Project 1 [to be done individually]
 
