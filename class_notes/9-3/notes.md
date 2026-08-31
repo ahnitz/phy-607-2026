@@ -35,4 +35,4 @@ See [the full Project 1 description](../projects/project1.md).
 
 ## Homework
 
-If the code for the in-class assignment is not complete by the end of class, make sure it is completed by the start of next class. You will need to run your code, test potential modifications, and explain your results in the next class.
+Have working Falling Cow code by the start of next class. Tuesday Sept 8 is a work session for the full set of runs, so you want to arrive able to run and modify your code rather than still writing it.
