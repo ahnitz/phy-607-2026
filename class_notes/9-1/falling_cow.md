@@ -1,6 +1,6 @@
 # In-class Assignment: Falling Cow Simulator
 
-Introduced Tuesday, September 1. Work continues through Thursday, September 3.
+Introduced Tuesday, September 1. Work continues through subsequent classes.
 
 A *spherical cow* with a mass of 1000 kg has fallen off a cliff (or was it pushed?). Simulate its motion under gravity and wind resistance for arbitrary initial conditions and air viscosity.
 
