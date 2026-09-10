@@ -24,7 +24,12 @@
     - [Python Numerical Methods](https://pythonnumericalmethods.studentorg.berkeley.edu/notebooks/Index.html),
       chapters 21 / 22
 
-## Project 1
+## In class today
+ - Measure using your simulation both the local and global error
+ - Implement the semi-implicit euler method and compare how its results to the standard euler method
+ - (BONUS) implement a second order integrator
+
+## Project 1 Reminder
 
 Project 1 was introduced on Sept 3; see [the full description](../projects/project1.md).
 
