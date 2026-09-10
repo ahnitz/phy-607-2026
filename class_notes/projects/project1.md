@@ -1,8 +1,8 @@
 # Project 1 Description
 
 **Introduced: Thursday, September 3rd**
-**Project plan due: Tuesday, September 15th**
-**Full project due: Friday, September 25th**
+**Project plan due: Thursday, September 15th**
+**Full project due: Tuesday, September 29th**
 
 This project is to be completed **individually**.
 
@@ -39,8 +39,8 @@ Prepare a short written summary of your plan, which we will discuss in class:
 A few possible suggestions:
 - Use Coulomb's law to find the electric field for some symmetric one-dimensional charge distribution.
 - Compute the second virial coefficient for some inter-particle potential as a function of temperature.
-- Solve for an orbital trajectory in a central force.
-- Simulate a coupled oscillator or spring
+- Solve for an orbital trajectory in a central force (you may reduce to solving for one dimension)
+- Simulate a coupled oscillator or spring (not just a simple spring)
 
 ---
 

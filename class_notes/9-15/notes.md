@@ -4,7 +4,7 @@
 
 ## Class Outline & Plan
 
-* Project 1 plan discussion — **initial project plans are due today**
+* Project 1 more detailed intorduction
 * How can you find resources on programming?
     * documentation of libraries
     * `google` / `stackoverflow`
@@ -26,6 +26,6 @@
 
 ## Office hours
 
-I am away Sept 8-17. Office hours will be held over video at the usual
+I am away Sept 8-18. Office hours will be held over video at the usual
 Monday 3-5 pm slot during this period, and by appointment otherwise.
-Project 1 is due Friday Sept 25 — please reach out early if you are stuck.
+Project 1 is due Teusday Sept 29. Please reach out early if you are stuck!
