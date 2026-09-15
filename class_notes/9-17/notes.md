@@ -35,4 +35,4 @@ This is the last remote class — I am back in person Tuesday, September 22.
 ## Looking ahead
 
 * Sept 22 and 24 are both in-person working days before Project 1 is due.
-* **Project 1 is due Friday, September 25.**
+* **Project 1 is due Tuesday, September 29.**

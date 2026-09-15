@@ -2,7 +2,7 @@ from matplotlib import pyplot
 import numpy
 
 # time step
-dt = 0.1
+dt = 1
 
 # local gravitational constant
 g = 9.81
@@ -80,8 +80,8 @@ ana_posy = - 1/2 * g * t**2.0 + vy * t + y
 ana_posx = vx * t + x
 
 pyplot.figure(figsize=[5, 4], dpi=300)
-pyplot.plot(ana_posx, ana_posy, label='analytic [drag free]', linestyle='dashed')
-pyplot.plot(posx, posy, label='numerical [euler]', linestyle='dotted')
+pyplot.plot(ana_posx, ana_posy, label='analytic [drag free]', alpha=0.5)
+pyplot.plot(posx, posy, label='numerical [euler]', alpha=0.5)
 pyplot.xlabel('X position [m]')
 pyplot.ylabel('Y position [m]')
 pyplot.legend()
