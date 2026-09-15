@@ -16,5 +16,5 @@ Introduced Tuesday, September 15. Continues Thursday, September 17.
 Determine what the modified hamiltonian is for the 1d spring oscillator when
 using the Euler symplectic integrator method.
 
-* *Hint: compare the unmodified energy at each time step. What would you have to
-  add to get a conserved form?*
+* *Hint: You can derive this from inspection of the unmodified energy at each time step.
+   What correction would you have to add to get a conserved form?*
