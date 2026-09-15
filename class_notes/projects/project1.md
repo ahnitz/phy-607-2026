@@ -22,7 +22,7 @@ Try to make it relatively straightforward to vary how your code runs, even if yo
 
 ---
 
-## Project Plan [due September 15th]
+## Project Plan [due September 17th]
 
 Prepare a short written summary of your plan, which we will discuss in class:
 
