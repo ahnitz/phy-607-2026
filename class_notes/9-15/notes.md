@@ -23,6 +23,7 @@
 ## Out of class review
 
 * Review PEP8 guidelines, install `black` and run it over your Falling Cow code
+* https://peps.python.org/pep-0008/
 
 ## Office hours
 
