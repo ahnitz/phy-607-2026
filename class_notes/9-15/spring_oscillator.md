@@ -18,3 +18,5 @@ using the Euler symplectic integrator method.
 
 * *Hint: You can derive this from inspection of the unmodified energy at each time step.
    What correction would you have to add to get a conserved form?*
+* H' = H + correction term
+* The correction term is simple enough you may also be able to guess the solution after examining the energy as a function of time. Plot the difference between the energy calculated at each time step and the exact energy.  Also vary the time step to see how it relates to the deviation. If you do this method, check that this is correct by comparing this modified Hamiltonian at subsequent time steps to verify it is conserved. 
