@@ -10,6 +10,7 @@ Introduced Tuesday, September 15. Continues Thursday, September 17.
 * Compare the accuracy of all techniques
     * How well is energy conserved over long periods? What are the differences
       between the various methods?
+    * Compare the relative error as a function of the time step. Plot this and post your interpretation as a group into the class slack channel. 
 
 ## Follow-up
 
