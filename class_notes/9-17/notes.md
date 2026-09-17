@@ -5,27 +5,13 @@ This is the last remote class — I am back in person Tuesday, September 22.
 
 ## Class Outline & Plan
 
-* numerical precision
-    * error example 1
-    * error analysis with numerical error (standard error propagation!)
-    * error example 2
-* python types, continued from Sept 1
-    * `numpy` arrays alongside the built-in types
-* classes
+* Project 1 proposals are due
 
 ## In-class Exercise
 
 [Spring Oscillator](../9-15/spring_oscillator.md) — continued from Tuesday.
 
 ## Pending time: in groups of 3-4
-
-* Plan pseudocode for a high precision floating point object
-* Should include methods for arithmetic `+`, `-`, `*`, `/` and comparisons
-* Choose any algorithm where you can demonstrate the numerical precision
-  is a limiting factor for standard double precision floating point objects
-  and compare to your class
-
-## For next Tuesday
 
 * Determine what the modified hamiltonian is for the 1d spring oscillator when
   using the Euler symplectic integrator method.
