@@ -11,7 +11,7 @@
     * How does the long time behavior compare to a second-order integrator that is not symplectic?
 
 * Numerical precision
-    * We have already discussed truncation / approximation error, this is not the same
+    * We have already discussed truncation / aproximation error, this is not the same
     * how a number is actually stored: sign, exponent, finite mantissa
     * representation error with examples, rounding, accumulation
 
@@ -27,21 +27,6 @@
     * special ("dunder") methods
         * operators: `__add__`, `__mul__`, `__eq__`, `__lt__`
         * [operator module reference](https://docs.python.org/3/library/operator.html)
-
-## Demos
-
-How a float is actually stored — bit layout, the exact value stored, and the
-gap to the next representable double: `float_bits.py` (animation:
-`float_bits.gif`).
-
-Run these and explain what you see:
-
-| script | shows |
-| --- | --- |
-| `repr.py` | `0.1 + 0.2 != 0.3` |
-| `prec.py` | subtracting nearly equal numbers destroys significant digits |
-| `cancel.py` | the same formula, rearranged, stays accurate |
-| `iter.py` / `iter2.py` | accumulating small into large vs summing separately |
 
 ## If time (otherwise Thursday)
 
