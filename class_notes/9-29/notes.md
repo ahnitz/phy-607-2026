@@ -40,7 +40,7 @@ See [../9-24/highprec.md](../9-24/highprec.md).
 * (2) bubble sort and merge sort against it, split across the group
 * (3) plot sort time vs list length, compare to the expected scaling
 * (4) profile it and find the bottleneck
-* (5) post the plot and a short summary by Thursday
+* (5) post the plot and a short summary during Thursday class
 
 ## Next class (Thursday Oct 1)
 
