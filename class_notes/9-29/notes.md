@@ -36,11 +36,11 @@
 
 See [../9-24/highprec.md](../9-24/highprec.md).
 
-* working class, and the algorithm showing where `float` falls over
-* bubble sort and merge sort against it, split across the group
-* plot sort time vs list length, compare to the expected scaling
-* profile it and find the bottleneck
-* post the plot and a short summary before Thursday
+* (1) working class, and the algorithm showing where `float` falls over
+* (2) bubble sort and merge sort against it, split across the group
+* (3) plot sort time vs list length, compare to the expected scaling
+* (4) profile it and find the bottleneck
+* (5) post the plot and a short summary by Thursday
 
 ## Next class (Thursday Oct 1)
 
