@@ -1,7 +1,5 @@
 # PHY 607 - Class 11 - Tuesday, September 29, 2026
 
-## Lecture (~35 min, the rest is work time)
-
 * Project 1 is due today
     * short discussion of how it went, common problems
 
