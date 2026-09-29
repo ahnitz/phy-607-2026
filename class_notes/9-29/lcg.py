@@ -1,7 +1,9 @@
+import sys
+
 m = 2**31
 a = 1103515245
 c = 12345
-seed = 1
+seed = int(sys.argv[1])
 
 x = seed
 def rand():
