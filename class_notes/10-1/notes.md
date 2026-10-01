@@ -23,6 +23,11 @@
     * [numpydoc format](https://numpydoc.readthedocs.io/en/latest/format.html)
       (required for Project 2)
 
+* In-class work
+    * Complete testing of your high precision class
+       * Demonstrate it has higher precision by comparison to standard python float and a high precision library like decimanl on a simple problem (see prior class examples).
+       * Use your floating point type to implement bubble and merge sort. Demonstrate your implementatoin has the expected  cost scaling with the length of the random input array. 
+
 * monte-carlo, the idea
     * why sample instead of putting down a grid
     * error goes as 1/sqrt(N), independent of dimension
