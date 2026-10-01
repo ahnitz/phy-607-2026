@@ -12,6 +12,7 @@ Note that Fall Break falls on Oct 12-13, in the middle of this project.
 > generation features in editors and IDEs. AI use becomes permitted, with
 > disclosure, starting with Project 3.
 
+
 * Timeline
     * By Oct 6, find a partner, agree on a project concept
       and submit a plan that includes (1) a description of the simulation
@@ -77,3 +78,10 @@ Note that Fall Break falls on Oct 12-13, in the middle of this project.
     * Discuss the results the of the simulation run for at least three
       levels of detail. (e.g. number of particles in the average,
       sampling resolution, etc).
+
+* Potential Ideas (though please consider something that you find interesting, it does not need to be on this list). 
+    * Scattering: Coulomb orbit integration of beam particles with impact parameter sampling and probabilistic close-range target absorption.
+    * Atmospheric muons: Relativistic trajectory under drag with proper-time decay sampling and ground detector flux.
+    * Gas effusion: Molecular dynamics in a container with Maxwell-Boltzmann sampling, wall collisions (diffuse vs specular), and aperture escape.
+    * Planetesimal accretion: Keplerian disk orbits with gas drag, power-law radial sampling, and probabilistic merge/fragment collisions.
+    * Trap drift: Lorentz force integration of confined ions with thermal velocity sampling and neutral gas collisions.
