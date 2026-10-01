@@ -6,7 +6,7 @@
     * common problems from the submissions
 
 * Project 2 introduced - see [../projects/project2.md](../projects/project2.md)
-    * groups of 2, partner and plan due Tuesday Oct 6
+    * groups of 2-3, partner and plan due Tuesday Oct 6
     * walk through the technical requirements, several are things we have not
       done yet
     * Fall Break Oct 12-13 sits in the middle of this project
@@ -26,12 +26,8 @@
 * monte-carlo, the idea
     * why sample instead of putting down a grid
     * error goes as 1/sqrt(N), independent of dimension
-    * `mcint.py` - the same accept/reject as rejection sampling, used for the
-      area of an ellipse
-    * `mc_anim.gif` - the estimate settling into the 1/sqrt(N) funnel
-    * all elementwise numpy, no python loops
 
-* variance reduction
+* variance reduction [next class]
     * where the 1/sqrt(N) prefactor comes from
     * rejection sampling: the acceptance fraction is the cost
     * importance sampling: sample where the integrand is large
