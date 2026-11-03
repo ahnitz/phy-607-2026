@@ -2,16 +2,6 @@
 
 ## Class Outline & Plan
 
-* Project 3 - [../projects/project3.md](../projects/project3.md)
-    * groups of 2, mcmc on a problem of your choice
-    * topic due Thursday Nov 5, validation plan due Tuesday Nov 10
-    * the validation plan and how you enact it is what is graded, not the code
-    * no AI on the project until the plan is submitted, and the plan itself
-      must not be written with AI
-    * all changes through PRs, explicitly reviewed by your partner
-
-* using AI properly
-
 * markov chains
     * why sample instead of evaluating on a grid, the n^d problem from
       [../10-6/why_mc.py](../10-6/why_mc.py)
@@ -27,6 +17,16 @@
         * this is the main thing you tune
     * burn-in, autocorrelation
     * [mcmc.py](mcmc.py) - single walker on a 1d posterior
+
+* Project 3 - [../projects/project3.md](../projects/project3.md)
+    * groups of 2-3, mcmc on a problem of your choice
+    * topic due Thursday Nov 5, validation plan due Tuesday Nov 10
+    * the validation plan and how you enact it is what is graded, not the code
+    * no AI on the project until the plan is submitted, and the plan itself
+      must not be written with AI
+    * all changes through PRs, explicitly reviewed by your partner
+
+* using AI properly
 
 ## Next class (Thursday Nov 5)
 
