@@ -1,7 +1,7 @@
 # PHY 607 - Class 8 - Thursday, September 17, 2026
 
 **Remote class.** We meet in room 208 as usual; I will join by video.
-This is the last remote class — I am back in person Tuesday, September 22.
+This is the last remote class - I am back in person Tuesday, September 22.
 
 ## Class Outline & Plan
 
@@ -9,7 +9,7 @@ This is the last remote class — I am back in person Tuesday, September 22.
 
 ## In-class Exercise
 
-[Spring Oscillator](../9-15/spring_oscillator.md) — continued from Tuesday.
+[Spring Oscillator](../9-15/spring_oscillator.md) - continued from Tuesday.
 
 ## Pending time: in groups of 3-4
 

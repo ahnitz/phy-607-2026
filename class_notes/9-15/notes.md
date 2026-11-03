@@ -18,7 +18,7 @@
 
 ## In-class Exercise
 
-[Spring Oscillator](spring_oscillator.md) — continues Thursday.
+[Spring Oscillator](spring_oscillator.md) - continues Thursday.
 
 ## Out of class review
 

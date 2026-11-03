@@ -27,7 +27,7 @@
 
 ## In-class Assignment
 
-[Falling Cow Simulator](falling_cow.md) — introduced today, continues Thursday.
+[Falling Cow Simulator](falling_cow.md) - introduced today, continues Thursday.
 
 ## Homework
 

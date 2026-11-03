@@ -38,7 +38,7 @@
     * time complexity in python
         * [Python Time & Space Complexity Reference](https://pythoncomplexity.com/)
         * [wiki.python.org TimeComplexity](https://wiki.python.org/moin/TimeComplexity)
-          — still accurate, but the wiki is being archived
+          (still accurate, but the wiki is being archived)
 
 ## Pending time: Project 1 questions
 **Project 1 is due Tuesday, September 29.**

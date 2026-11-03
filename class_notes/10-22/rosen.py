@@ -17,7 +17,7 @@ for i in range(X.shape[0]):
 
 # Create the plot
 plt.figure(figsize=(8, 6))
-plt.pcolormesh(X, Y, Z, cmap='plasma')
+plt.pcolormesh(X, Y, Z, cmap='viridis', norm='log')
 plt.title('Rosenbrock Function (using scipy.optimize.rosen)')
 plt.xlabel('x')
 plt.ylabel('y')

@@ -33,7 +33,7 @@
 
 Project 1 was introduced on Sept 3; see [the full description](../projects/project1.md).
 
-- **Initial project plan due Sept 17th** — prepare a written summary of your plan
+- **Initial project plan due Sept 17th** - prepare a written summary of your plan
   which we will discuss next Thurday
 - **Full project due Tuesday Sept 29th.**
 - The material covered today (truncation error and its scaling with step size) is

@@ -1,4 +1,4 @@
-# Assignment 1 — Bash Scripting: Automate a Task
+# Assignment 1 - Bash Scripting: Automate a Task
 
 **Due: before the start of class on Tuesday, September 1, 2026.** It will be
 submitted electronically at the start of class.

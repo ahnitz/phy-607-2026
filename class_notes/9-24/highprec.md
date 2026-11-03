@@ -13,8 +13,8 @@ Started Thursday, September 24, in groups. Continues next week.
     * `__eq__`, `__lt__`  (and other comparison operations),  enough to sort a list of them
 * Pick an algorithm where double precision is the limiting factor and show the
   difference against plain `float`
-    * `(1 - cos x) / x^2` for small x — see [../9-22/cancel.py](../9-22/cancel.py)
-    * summing many small values into a large one — [../9-22/iter.py](../9-22/iter.py)
+    * `(1 - cos x) / x^2` for small x - see [../9-22/cancel.py](../9-22/cancel.py)
+    * summing many small values into a large one - [../9-22/iter.py](../9-22/iter.py)
     * the quadratic formula when `b^2 >> 4ac`
     * `(1 + 1/n)^n` converging to e
     * iterating the logistic map

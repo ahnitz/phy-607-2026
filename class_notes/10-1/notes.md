@@ -37,7 +37,7 @@
     * where the 1/sqrt(N) prefactor comes from
     * rejection sampling: the acceptance fraction is the cost
     * importance sampling: sample where the integrand is large
-    * the exercise is Tuesday, see [mc_ellipse.md](mc_ellipse.md)
+    * the exercise is Tuesday, see [../10-6/mc_exercises.md](../10-6/mc_exercises.md)
 
 ## Group work: start Project 2
 

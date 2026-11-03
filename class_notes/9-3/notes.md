@@ -31,7 +31,7 @@ See [the full Project 1 description](../projects/project1.md).
 
 ## In-class Assignment
 
-[Falling Cow Simulator](../9-1/falling_cow.md) — continued from Tuesday.
+[Falling Cow Simulator](../9-1/falling_cow.md) - continued from Tuesday.
 
 ## Homework
 

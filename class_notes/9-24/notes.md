@@ -12,28 +12,25 @@
         * `conda create --name phy607 python numpy scipy matplotlib`
         * `conda activate phy607`, `conda env export > environment.yml`
         * handles non-python dependencies
-        * install via [Miniforge](https://conda-forge.org/download) — Miniconda
+        * install via [Miniforge](https://conda-forge.org/download) - Miniconda
 
 * computational complexity
     * time / space
         * best / average / worst
-    * complexity of common operations — depends on the data structure
+    * complexity of common operations - depends on the data structure
         * [pythoncomplexity.com](https://pythoncomplexity.com/),
           [wiki.python.org](https://wiki.python.org/moin/TimeComplexity) (archived)
     * sorting
-        * bubble, insertion — O(n^2)
-        * merge — O(n log n)
-        * bogo — O(n * n!)
+        * bubble, insertion - O(n^2)
+        * merge - O(n log n)
+        * bogo - O(n * n!)
     * search: linear vs binary
     * timing
         * `%timeit` in ipython, or the
           [`timeit`](https://docs.python.org/3/library/timeit.html) module
-        * `timing.py` — `x in list` vs `x in set`, 40000x apart at n = 1e6
-    * profiling
-        * [`cProfile`](https://docs.python.org/3/library/profile.html#module-cProfile)
-        * `example.py` + `prof.sh` → `profile.txt`, and a call graph png
-        * the sleep costs more than ten million numpy ops
-    * scaling without deriving the algorithm — `scaling_demo.py`
+        * `timing.py` - `x in list` vs `x in set`, 40000x apart at n = 1e6
+    * profiling - ran out of time, moved to Sept 29
+    * scaling without deriving the algorithm - `scaling_demo.py`
         * FFT vs naive DFT: speedup grows like n/log n
         * Strassen: 7 block multiplies instead of 8, n^2.807 not n^3
 
@@ -51,7 +48,7 @@ Due Tuesday, September 29. Last class before then.
 ## Next class (Tuesday Sept 29)
 
 * Project 1 due
-* Project 2 introduced
+* Project 2 introduced (Thursday Oct 1)
 * monte-carlo methods and random numbers
     * pseudorandom numbers
     * inverse CDF, rejection sampling
