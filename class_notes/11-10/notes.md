@@ -27,6 +27,7 @@ one, but writing it yourself is the exercise.
 * find the burn-in by eye, discard it, see if your answer changes
 * estimate the autocorrelation length and thin by it
     * how many independent samples did you actually get out of the chain?
+    * (look at the example autorcorrelation script)
 * Implement an ensemble sampler with 500 walkers
       * Run on the model and data we used for the prior 'fitting' exercise.
       * Plot the distribution of each parameter after 'burn in' 
