@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+emcee>=3.0.0
+arviz
+corner
