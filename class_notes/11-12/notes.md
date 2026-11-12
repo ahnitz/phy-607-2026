@@ -4,7 +4,7 @@
 
 * Project 3 is due Tuesday Nov 17
 
-* a short tour of the convergence tests, so you can pick one
+* convergence tests
     * gelman-rubin
     * autocorrelation length, per parameter
     * split one chain in half, do both halves give the same posterior
